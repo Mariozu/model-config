@@ -17,6 +17,9 @@ Para Usarlo:
 
 	ejemplo.:
 	./generate.sh light-rest-4j ~/networknt/model-config/rest/petstore /tmp/petstore
+         java -jar [.jar] -f [framework] -o [directorio de salida] -m [modelo.json] -c [configuracion.json]
+
+
 ```
 #Notas
 Nota: Este repositorio se usa para llamar swagger solo  si es para light-rest-4j. ahora, aqui podras encontrar modelos y configuraciones para:
