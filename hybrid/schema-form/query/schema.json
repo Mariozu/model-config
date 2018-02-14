@@ -1,0 +1,24 @@
+{
+  "host": "lightapi.net",
+  "service": "form",
+  "action": [
+    {
+      "name": "getForm",
+      "version": "0.1.0",
+      "handler": "GetForm",
+      "scope": "form.all.r",
+      "schema": {
+        "title": "Service"
+      }
+    },   
+    {
+      "name": "getFormById",
+      "version": "0.1.0",
+      "handler": "GetFormById",
+      "scope": "form.all.r",
+      "schema": {
+        "title": "Service"
+      }
+    }
+  ]
+}

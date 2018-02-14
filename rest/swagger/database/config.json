@@ -1,0 +1,27 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "groupId": "com.networknt",
+  "artifactId": "database",
+  "rootPackage": "com.networknt.database",
+  "handlerPackage":"com.networknt.database.handler",
+  "modelPackage":"com.networknt.database.model",
+  "overwriteHandler": true,
+  "overwriteHandlerTest": true,
+  "overwriteModel": true,
+  "httpPort": 8080,
+  "enableHttp": false,
+  "httpsPort": 8443,
+  "enableHttps": true,
+  "enableRegistry": false,
+  "supportDb": true,
+  "dbInfo": {
+    "name": "mysql",
+    "driverClassName": "com.mysql.jdbc.Driver",
+    "jdbcUrl": "jdbc:mysql://mysqldb:3306/oauth2?useSSL=false",
+    "username": "root",
+    "password": "my-secret-pw"
+  },
+  "supportH2ForTest": true,
+  "supportClient": false
+}

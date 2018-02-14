@@ -1,0 +1,42 @@
+{
+  "host": "lightapi.net",
+  "service": "menu",
+  "action": [
+    {
+      "name": "getMenuByHost",
+      "version": "0.1.0",
+      "handler": "GetMenuByHost",
+      "scope": "menu.r",
+      "schema": {
+        "title": "Service",
+        "type": "object",
+        "properties": {
+          "host": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "host"
+        ]
+      }
+    },
+    {
+      "name": "getMenu",
+      "version": "0.1.0",
+      "handler": "GetMenu",
+      "scope": "menu.all.r",
+      "schema": {
+        "title": "Service"
+      }
+    },
+    {
+      "name": "getMenuItem",
+      "version": "0.1.0",
+      "handler": "GetMenuItem",
+      "scope": "menuItem.all.r",
+      "schema": {
+        "title": "Service"
+      }
+    }
+  ]
+}

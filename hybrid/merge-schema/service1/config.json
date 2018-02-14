@@ -1,0 +1,21 @@
+{
+  "rootPackage": "com.networknt.merger",
+  "handlerPackage":"com.networknt.merger.handler",
+  "modelPackage":"com.networknt.merger.model",
+  "artifactId": "merger",
+  "groupId": "com.networknt",
+  "name": "merger",
+  "version": "1.0.0",
+  "overwriteHandler": true,
+  "overwriteHandlerTest": true,
+  "httpPort": 8080,
+  "enableHttp": true,
+  "httpsPort": 8443,
+  "enableHttps": false,
+  "enableRegistry": false,
+  "supportOracle": false,
+  "supportMysql": false,
+  "supportPostgresql": false,
+  "supportH2ForTest": false,
+  "supportClient": false
+}

@@ -1,0 +1,20 @@
+{
+  "name": "apia",
+  "version": "1.0.0",
+  "groupId": "com.networknt",
+  "artifactId": "apia",
+  "rootPackage": "com.networknt.apia",
+  "handlerPackage":"com.networknt.apia.handler",
+  "modelPackage":"com.networknt.apia.model",
+  "overwriteHandler": true,
+  "overwriteHandlerTest": true,
+  "overwriteModel": true,
+  "httpPort": 7001,
+  "enableHttp": true,
+  "httpsPort": 7441,
+  "enableHttps": true,
+  "enableRegistry": false,
+  "supportDb": false,
+  "supportH2ForTest": false,
+  "supportClient": true
+}
